@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED03487F2BE2598300217E73 /* StepBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03487E2BE2598300217E73 /* StepBarChart.swift */; };
+		ED0348872BE25FCB00217E73 /* ChartDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0348862BE25FCB00217E73 /* ChartDataTypes.swift */; };
+		ED03488A2BE260B500217E73 /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0348892BE260B500217E73 /* Date+Ext.swift */; };
+		ED03488D2BE262F100217E73 /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = ED03488C2BE262F100217E73 /* Algorithms */; };
+		ED03488F2BE2676300217E73 /* StepPieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED03488E2BE2676300217E73 /* StepPieChart.swift */; };
+		ED093F6D2BD29DC6006971C8 /* HealthKitPermissionPrimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED093F6C2BD29DC6006971C8 /* HealthKitPermissionPrimingView.swift */; };
+		ED093F702BD2B190006971C8 /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED093F6F2BD2B190006971C8 /* HealthKitManager.swift */; };
+		ED093F742BD82657006971C8 /* HealthMetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED093F732BD82657006971C8 /* HealthMetric.swift */; };
+		ED43E6202C3591C400263301 /* ChartContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43E61F2C3591C400263301 /* ChartContainer.swift */; };
+		ED43E6222C359FEF00263301 /* ChartHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43E6212C359FEF00263301 /* ChartHelper.swift */; };
+		ED43E6242C35A15A00263301 /* ChartAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED43E6232C35A15A00263301 /* ChartAnnotationView.swift */; };
+		ED5C88C62C205479006AB9FE /* ChartEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5C88C52C205479006AB9FE /* ChartEmptyView.swift */; };
+		ED6FEBA42BCD673C00242245 /* Avvio.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FEBA32BCD673C00242245 /* Avvio.swift */; };
+		ED6FEBA62BCD673C00242245 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6FEBA52BCD673C00242245 /* DashboardView.swift */; };
+		ED6FEBA82BCD673D00242245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FEBA72BCD673D00242245 /* Assets.xcassets */; };
+		ED6FEBAB2BCD673D00242245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED6FEBAA2BCD673D00242245 /* Preview Assets.xcassets */; };
+		ED7F68472C0248BC009608D3 /* WeightDiffBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F68462C0248BC009608D3 /* WeightDiffBarChart.swift */; };
+		ED8868082BD032DB009B7541 /* HealthDataListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8868072BD032DB009B7541 /* HealthDataListView.swift */; };
+		EDAD35672BF4EFD100FBB7F7 /* WeightLineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD35662BF4EFD100FBB7F7 /* WeightLineChart.swift */; };
+		EDAD356A2BF4F1B300FBB7F7 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAD35692BF4F1B300FBB7F7 /* MockData.swift */; };
+		EDDC71D12C397AB600C953DA /* STError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC71D02C397AB600C953DA /* STError.swift */; };
+		EDDC71D32C398A7D00C953DA /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDDC71D22C398A7D00C953DA /* Array+Ext.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED436F2D2CBBFF73004380C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED6FEB982BCD673C00242245 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED6FEB9F2BCD673C00242245;
+			remoteInfo = "Step Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED03487E2BE2598300217E73 /* StepBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepBarChart.swift; sourceTree = "<group>"; };
+		ED0348862BE25FCB00217E73 /* ChartDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartDataTypes.swift; sourceTree = "<group>"; };
+		ED0348892BE260B500217E73 /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		ED03488E2BE2676300217E73 /* StepPieChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepPieChart.swift; sourceTree = "<group>"; };
+		ED093F6C2BD29DC6006971C8 /* HealthKitPermissionPrimingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitPermissionPrimingView.swift; sourceTree = "<group>"; };
+		ED093F6E2BD2AF92006971C8 /* Avvio.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Avvio.entitlements; sourceTree = "<group>"; };
+		ED093F6F2BD2B190006971C8 /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		ED093F732BD82657006971C8 /* HealthMetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthMetric.swift; sourceTree = "<group>"; };
+		ED436F292CBBFF73004380C4 /* Avvio Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Avvio Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED43E61F2C3591C400263301 /* ChartContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartContainer.swift; sourceTree = "<group>"; };
+		ED43E6212C359FEF00263301 /* ChartHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartHelper.swift; sourceTree = "<group>"; };
+		ED43E6232C35A15A00263301 /* ChartAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartAnnotationView.swift; sourceTree = "<group>"; };
+		ED5C88C52C205479006AB9FE /* ChartEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartEmptyView.swift; sourceTree = "<group>"; };
+		ED6FEBA02BCD673C00242245 /* Avvio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Avvio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED6FEBA32BCD673C00242245 /* Avvio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Avvio.swift; sourceTree = "<group>"; };
+		ED6FEBA52BCD673C00242245 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		ED6FEBA72BCD673D00242245 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED6FEBAA2BCD673D00242245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED7F68462C0248BC009608D3 /* WeightDiffBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightDiffBarChart.swift; sourceTree = "<group>"; };
+		ED8868072BD032DB009B7541 /* HealthDataListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthDataListView.swift; sourceTree = "<group>"; };
+		EDAD35662BF4EFD100FBB7F7 /* WeightLineChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightLineChart.swift; sourceTree = "<group>"; };
+		EDAD35692BF4F1B300FBB7F7 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		EDDC71D02C397AB600C953DA /* STError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STError.swift; sourceTree = "<group>"; };
+		EDDC71D22C398A7D00C953DA /* Array+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Ext.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED436F2A2CBBFF73004380C4 /* Avvio Tests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = "Avvio Tests"; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED436F262CBBFF73004380C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FEB9D2BCD673C00242245 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED03488D2BE262F100217E73 /* Algorithms in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED0348802BE25BBF00217E73 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FEBA52BCD673C00242245 /* DashboardView.swift */,
+				ED093F6C2BD29DC6006971C8 /* HealthKitPermissionPrimingView.swift */,
+				ED8868072BD032DB009B7541 /* HealthDataListView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ED0348812BE25BD900217E73 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				EDDC71D42C398F2900C953DA /* Charts */,
+				EDDC71D62C398F4D00C953DA /* Chart Custom Views */,
+				EDDC71D52C398F4500C953DA /* Chart Utilites */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		ED0348822BE25BFD00217E73 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ED093F732BD82657006971C8 /* HealthMetric.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ED0348832BE25C0100217E73 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				ED093F6F2BD2B190006971C8 /* HealthKitManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ED0348882BE260A000217E73 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				ED0348892BE260B500217E73 /* Date+Ext.swift */,
+				EDDC71D22C398A7D00C953DA /* Array+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ED6FEB972BCD673C00242245 = {
+			isa = PBXGroup;
+			children = (
+				ED6FEBA22BCD673C00242245 /* Avvio */,
+				ED436F2A2CBBFF73004380C4 /* Avvio Tests */,
+				ED6FEBA12BCD673C00242245 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED6FEBA12BCD673C00242245 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FEBA02BCD673C00242245 /* Avvio.app */,
+				ED436F292CBBFF73004380C4 /* Avvio Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED6FEBA22BCD673C00242245 /* Avvio */ = {
+			isa = PBXGroup;
+			children = (
+				ED093F6E2BD2AF92006971C8 /* Avvio.entitlements */,
+				ED6FEBA32BCD673C00242245 /* Avvio.swift */,
+				EDAD35682BF4F17300FBB7F7 /* Utilties */,
+				ED0348832BE25C0100217E73 /* Managers */,
+				ED0348822BE25BFD00217E73 /* Model */,
+				ED0348812BE25BD900217E73 /* Charts */,
+				ED0348802BE25BBF00217E73 /* Screens */,
+				ED6FEBA72BCD673D00242245 /* Assets.xcassets */,
+				ED6FEBA92BCD673D00242245 /* Preview Content */,
+			);
+			path = Avvio;
+			sourceTree = "<group>";
+		};
+		ED6FEBA92BCD673D00242245 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED6FEBAA2BCD673D00242245 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EDAD35682BF4F17300FBB7F7 /* Utilties */ = {
+			isa = PBXGroup;
+			children = (
+				ED0348882BE260A000217E73 /* Extensions */,
+				EDAD35692BF4F1B300FBB7F7 /* MockData.swift */,
+				EDDC71D02C397AB600C953DA /* STError.swift */,
+			);
+			path = Utilties;
+			sourceTree = "<group>";
+		};
+		EDDC71D42C398F2900C953DA /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				ED03487E2BE2598300217E73 /* StepBarChart.swift */,
+				ED03488E2BE2676300217E73 /* StepPieChart.swift */,
+				EDAD35662BF4EFD100FBB7F7 /* WeightLineChart.swift */,
+				ED7F68462C0248BC009608D3 /* WeightDiffBarChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		EDDC71D52C398F4500C953DA /* Chart Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				ED0348862BE25FCB00217E73 /* ChartDataTypes.swift */,
+				ED43E6212C359FEF00263301 /* ChartHelper.swift */,
+			);
+			path = "Chart Utilites";
+			sourceTree = "<group>";
+		};
+		EDDC71D62C398F4D00C953DA /* Chart Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED5C88C52C205479006AB9FE /* ChartEmptyView.swift */,
+				ED43E61F2C3591C400263301 /* ChartContainer.swift */,
+				ED43E6232C35A15A00263301 /* ChartAnnotationView.swift */,
+			);
+			path = "Chart Custom Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED436F282CBBFF73004380C4 /* Avvio Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED436F2F2CBBFF73004380C4 /* Build configuration list for PBXNativeTarget "Avvio Tests" */;
+			buildPhases = (
+				ED436F252CBBFF73004380C4 /* Sources */,
+				ED436F262CBBFF73004380C4 /* Frameworks */,
+				ED436F272CBBFF73004380C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED436F2E2CBBFF73004380C4 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED436F2A2CBBFF73004380C4 /* Avvio Tests */,
+			);
+			name = "Avvio Tests";
+			packageProductDependencies = (
+			);
+			productName = "Step Tracker Tests";
+			productReference = ED436F292CBBFF73004380C4 /* Avvio Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED6FEB9F2BCD673C00242245 /* Avvio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED6FEBAE2BCD673D00242245 /* Build configuration list for PBXNativeTarget "Avvio" */;
+			buildPhases = (
+				ED6FEB9C2BCD673C00242245 /* Sources */,
+				ED6FEB9D2BCD673C00242245 /* Frameworks */,
+				ED6FEB9E2BCD673C00242245 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Avvio;
+			packageProductDependencies = (
+				ED03488C2BE262F100217E73 /* Algorithms */,
+			);
+			productName = "Step Tracker";
+			productReference = ED6FEBA02BCD673C00242245 /* Avvio.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED6FEB982BCD673C00242245 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ED436F282CBBFF73004380C4 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = ED6FEB9F2BCD673C00242245;
+					};
+					ED6FEB9F2BCD673C00242245 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = ED6FEB9B2BCD673C00242245 /* Build configuration list for PBXProject "Avvio" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED6FEB972BCD673C00242245;
+			packageReferences = (
+				ED03488B2BE262F100217E73 /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
+			productRefGroup = ED6FEBA12BCD673C00242245 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED6FEB9F2BCD673C00242245 /* Avvio */,
+				ED436F282CBBFF73004380C4 /* Avvio Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED436F272CBBFF73004380C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FEB9E2BCD673C00242245 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED6FEBAB2BCD673D00242245 /* Preview Assets.xcassets in Resources */,
+				ED6FEBA82BCD673D00242245 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED436F252CBBFF73004380C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED6FEB9C2BCD673C00242245 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED8868082BD032DB009B7541 /* HealthDataListView.swift in Sources */,
+				ED7F68472C0248BC009608D3 /* WeightDiffBarChart.swift in Sources */,
+				ED6FEBA62BCD673C00242245 /* DashboardView.swift in Sources */,
+				ED03487F2BE2598300217E73 /* StepBarChart.swift in Sources */,
+				ED43E6242C35A15A00263301 /* ChartAnnotationView.swift in Sources */,
+				ED43E6202C3591C400263301 /* ChartContainer.swift in Sources */,
+				EDAD356A2BF4F1B300FBB7F7 /* MockData.swift in Sources */,
+				ED5C88C62C205479006AB9FE /* ChartEmptyView.swift in Sources */,
+				ED6FEBA42BCD673C00242245 /* Avvio.swift in Sources */,
+				EDDC71D12C397AB600C953DA /* STError.swift in Sources */,
+				ED093F702BD2B190006971C8 /* HealthKitManager.swift in Sources */,
+				ED093F6D2BD29DC6006971C8 /* HealthKitPermissionPrimingView.swift in Sources */,
+				ED43E6222C359FEF00263301 /* ChartHelper.swift in Sources */,
+				ED093F742BD82657006971C8 /* HealthMetric.swift in Sources */,
+				ED0348872BE25FCB00217E73 /* ChartDataTypes.swift in Sources */,
+				ED03488F2BE2676300217E73 /* StepPieChart.swift in Sources */,
+				EDDC71D32C398A7D00C953DA /* Array+Ext.swift in Sources */,
+				EDAD35672BF4EFD100FBB7F7 /* WeightLineChart.swift in Sources */,
+				ED03488A2BE260B500217E73 /* Date+Ext.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED436F2E2CBBFF73004380C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED6FEB9F2BCD673C00242245 /* Avvio */;
+			targetProxy = ED436F2D2CBBFF73004380C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED436F302CBBFF73004380C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GH3B5PTCPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.indieup.avvio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avvio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Avvio";
+			};
+			name = Debug;
+		};
+		ED436F312CBBFF73004380C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GH3B5PTCPW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.indieup.avvio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Avvio.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Avvio";
+			};
+			name = Release;
+		};
+		ED6FEBAC2BCD673D00242245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED6FEBAD2BCD673D00242245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED6FEBAF2BCD673D00242245 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Avvio/Avvio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avvio/Preview Content\"";
+				DEVELOPMENT_TEAM = GH3B5PTCPW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app shows your step and weight data in an interactive chart.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app allows you to add step and weight data to Apple Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.indieup.avvio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ED6FEBB02BCD673D00242245 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Avvio/Avvio.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Avvio/Preview Content\"";
+				DEVELOPMENT_TEAM = GH3B5PTCPW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "The app shows your step and weight data in an interactive chart.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "The app allows you to add step and weight data to Apple Health.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.indieup.avvio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED436F2F2CBBFF73004380C4 /* Build configuration list for PBXNativeTarget "Avvio Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED436F302CBBFF73004380C4 /* Debug */,
+				ED436F312CBBFF73004380C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FEB9B2BCD673C00242245 /* Build configuration list for PBXProject "Avvio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FEBAC2BCD673D00242245 /* Debug */,
+				ED6FEBAD2BCD673D00242245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED6FEBAE2BCD673D00242245 /* Build configuration list for PBXNativeTarget "Avvio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED6FEBAF2BCD673D00242245 /* Debug */,
+				ED6FEBB02BCD673D00242245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED03488B2BE262F100217E73 /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED03488C2BE262F100217E73 /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED03488B2BE262F100217E73 /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ED6FEB982BCD673C00242245 /* Project object */;
+}
